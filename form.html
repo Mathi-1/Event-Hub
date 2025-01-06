@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Event Management Portal</header>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <p>Welcome to <strong>Event Management Portal</strong>! Our platform is your one-stop solution for planning, organizing, and managing campus events effortlessly. From cultural fests and academic seminars to club activities and workshops, we ensure a seamless experience for organizers and participants alike. Stay updated with upcoming events, book venues, and manage registrations with ease. Let’s make every event on campus a memorable one—together!</p>
+
+        <form name="f1">
+            <label for="event-title">Event Title</label>
+            <input type="text" id="event-title" name="t1" placeholder="Enter event title" required>
+            <br>    
+            <label for="brochure">Brochure</label>
+            <input type="file">
+            <br>
+            <label for="date">Date</lable>
+            <input type="date">
+            <br>
+            <label for="description">Description</label>
+            <textarea id="description" name="d1" rows="4" placeholder="Enter event description" required></textarea>
+            <br>
+            <label for="category">Event Category</label>
+            <select id="category" name="category" required>
+                <option value="FDP">FDP</option>
+                <option value="Seminar">Seminar</option>
+                <option value="Club Activity">Club Activity</option>
+                <option value="Guest Lecture">Guest Lecture</option>
+                <option value="Workshop">Workshop</option>
+            </select>
+            <br>
+            <label for="approval-document">Approval Document</label>
+            <input type="file" id="approval-document" name="fi1" required>
+            <br>
+            <label for="hall">Hall</label>
+            <select id="hall" name="hall" required>
+                <option value="Seminar Hall 1">Seminar Hall 1</option>
+                <option value="Seminar Hall 2">Seminar Hall 2</option>
+                <option value="Main Auditorium">Main Auditorium</option>
+                <option value="Mini Auditorium">Mini Auditorium</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2025 Event Management Portal. All rights reserved.
+    </footer>
+</body>
+</html>
+
